@@ -1,0 +1,79 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:dashed red 1px;  
+}
+
+header{ 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+header h1{
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+header ul li{
+    gap: 1rem;
+    padding-right: 10px;
+    font-size: 20px;
+    display: inline;
+    list-style-type: none;
+    justify-content: end;
+    font:black;
+}
+
+#portfolio{
+    height: 150px;
+    display:flex;
+    justify-content: end;
+    align-items:end;
+    background:url("./bakertower.jpg");
+    background-position:bottom;
+    object-fit:scale-down;
+    font-size: 50px;
+}
+
+.content {
+    display:flex;
+}
+
+.content h3{
+    width:12.5%;
+    text-align:right;
+}
+
+.content div{
+    border-left:solid black 5px;
+}
+
+.projects{
+    width: 200px;
+    height: 200px; 
+    flex-wrap: wrap;
+}
+
+footer{ 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+footer h4{
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+footer ul li{
+    padding-right: 10px;
+    font-size: 20px;
+    display: inline;
+    list-style-type: none;
+    align-items:end;
+    justify-content: end;
+    width: 75%;
+    font:black;
+}

@@ -1,65 +1,73 @@
+
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-        <meta charset="UTF=8">
-        <meta name="description" content="portfolio">
-        <!--<meta name="viewport" content=""width=device-width, intial-scale=1">-->
-        <meta name="keywords" content="portfolio">
-        <meta name="author" content="James Sung">
-        <title>This is my website</title>
-        <link rel="stylesheet" href="./assets/css/style.css">
-
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/style.css">
+        <title>Portfolio</title>
 </head>
-
-
 <body>
-
-        <header class="first header">
-                <h1>first header</h1>
-                        <nav>
-                                <ul>
-                                        <li>
-                                                list 1
-                                        </li>
-                                        <li>                                       
-                                                list 2
-                                        </li>
-                                        <li>                                       
-                                                list 3
-                                        </li>
-                                </ul>
-
-                        </nav>
-
+        <header>
+                <h1>James Portfolio</h1> 
+                <nav>
+                        <ul>
+                                <li><a href="About-Me">About Me</a></li>
+                                <li><a href="Work">Work</a></li>
+                                <li><a href="Contact-Me">Contact Me</a></li>
+                                <li><a href="Resume">Resume</a></li>
+                        </ul>
+                </nav>
         </header>
 
         <div>
-                <h2>
-                        <ul>
-                               <li>
-                                        list 1    
-                               </li>
-                               <li>
-                                        list 2
-                               </li>
-                        </ul>
+                <h2 id="portfolio">
+                        Cool Title 
                 </h2>
-                
         </div>
-        
 
-<!--Portfolio-->
+        <main>
+                <section class="content">
+                        <h3 id="About-Me" class="contentlist"><h3>About Me</h2>
+                        <div>
+                               information about me
+                        </div>
+                </section>
+
+                <section class="content">
+                        <h3 id="Work" class="contentlist"><h3>Work</h2>
+                        <a href="urlhoriseon" id="project1">
+                                <img src="./assets/bakertower.jpg" alt="horiseon project"/>
+                                Horiseon
+                        </a>
+                        <a href="urlportfolio" id="project2">
+                                <img src="./assets/bakertower.jpg" alt="horiseon project"/>
+                                Horiseon
+                        </a>
+                        <a href="urlportfolio" id="project3">
+                                <img src="./assets/bakertower.jpg" alt="horiseon project"/>
+                                Horiseon
+                        </a>
+                </section>
+              
+        </main>
+      
+        <footer class="Contact-Me">
+                <h4>Contact Me</h4> 
+                <ul>
+                        <li>818-983-6926</li>
+                        <li><a href="urlportfoliowebsite">Portfolio</a></li>
+                        <li><a href="urlGithub">Github</a></li>
+                        <li><a href="mailto:jamessung76@gmail.com">Email</a></li>
+                </ul>
+
+        </footer>
+
 
 
 
 
 
 </body>
-
-
-
-
-
-
 </html>
