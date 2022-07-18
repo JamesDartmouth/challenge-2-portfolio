@@ -1,79 +1,185 @@
-*{
+*, html{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border:dashed red 1px;  
 }
+body{
+    font-size: 1rem;
+    scroll-behavior: smooth;
+    background-color: lightgray;
+}
+
+header a, header a:visited
+{
+    text-decoration: none;
+    padding: 15px 8px;
+    color:teal;    
+    font-weight: 700;
+    margin-right: 12px;
+    font-size:1.5rem;
+    background-image: linear-gradient(to bottom, teal 0%, teal 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 12px;
+    background-position: bottom;
+}
+
 
 header{ 
     display:flex;
     justify-content: space-between;
     align-items: center;
     height: 75px;
+    background-color:darkslategrey;
 }
 
 header h1{
-    padding-left: 10px;
-    font-size: 40px;
+    padding-left: 20px;
+    font-size: 50px;
+    font: black;
+
+   
+}
+
+header ul{
+    
 }
 
 header ul li{
-    gap: 1rem;
-    padding-right: 10px;
-    font-size: 20px;
+    padding-right: 20px;
+    font-size: 30px;
     display: inline;
     list-style-type: none;
     justify-content: end;
     font:black;
-}
+   
+} 
 
 #portfolio{
-    height: 150px;
+    margin:0;
     display:flex;
-    justify-content: end;
-    align-items:end;
-    background:url("./bakertower.jpg");
-    background-position:bottom;
-    object-fit:scale-down;
+    justify-content:space-between;
+    align-items:baseline;
     font-size: 50px;
+    padding:2rem 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 300px;
+    background: yellowgreen;
+    
 }
 
+#portfolio img{
+    display:block;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+
+}
+
+#science{
+    max-width: 100%;
+    max-height: 100%;
+    height: 150px;
+    width:200px;
+}
 .content {
     display:flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: baseline;
+
 }
 
 .content h3{
     width:12.5%;
     text-align:right;
-}
-
-.content div{
-    border-left:solid black 5px;
-}
-
-.projects{
-    width: 200px;
-    height: 200px; 
-    flex-wrap: wrap;
-}
-
-footer{ 
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 75px;
-}
-
-footer h4{
-    padding-left: 10px;
+    padding-right: 20px;
     font-size: 40px;
+    align-items: center;
 }
 
-footer ul li{
+
+#infome{
+    border-left: solid lightslategray 5px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#contactlinks div{
+    /*border-left: solid lightslategray 5px;
+    flex-wrap: wrap;
+    width: 100%;
     padding-right: 10px;
+    display: inline-block;
     font-size: 20px;
+    justify-content: end;
+    justify-content: space-around;
+    font:black;
+    align-items: right; */
+    
+}
+#contactlinks li{
+    padding-right: 20px;
+    font-size: 30px;
     display: inline;
     list-style-type: none;
-    align-items:end;
     justify-content: end;
-    width: 75%;
     font:black;
+    text-decoration: none;text-align: right;
+   
+} 
+
+.project1{
+    width: 600px;
 }
+
+.project2{
+    width:300px;
+    height: 350px;
+    display: flex;
+}
+
+.projectlist{
+    display: flex;
+    border-left: solid lightslategray 5px;
+    /*justify-content: space-between;*/
+    align-items:stretch;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.projectlist div{
+    border: solid lightslategray 5px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    position:relative;
+}
+
+.projectlist img{
+    display:block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0; 
+    object-fit: cover;
+}
+
+.projectlist h4{
+    position: absolute;
+    bottom: 20px;
+    top: auto;
+    left: 0;
+    right: auto;
+    background:lightslategray;
+    padding:1rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+.project1 img{
+    /*max-height: 500px;*/
+}
+
+.project2 img{
+    max-height: 350px;
+}
+
