@@ -4,9 +4,9 @@
 
 Project is a website for my future portfolio of coding projects.
 
-https://jamesdartmouth.github.io/challenge-1-horiseon/
+https://jamesdartmouth.github.io/challenge-2-portfolio/
 
-https://github.com/JamesDartmouth/challenge-1-horiseon
+https://github.com/JamesDartmouth/challenge-2-portfolio
 
 
 
